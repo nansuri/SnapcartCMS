@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17049" started-at="2018-07-25T10:31:26Z" finished-at="2018-07-25T10:31:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17049" started-at="2018-07-25T10:31:26Z" finished-at="2018-07-25T10:31:43Z">
+      <class name="functionalTest.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:functionalTest.LoginTest@5e3a8624]" name="setUp" is-config="true" duration-ms="13788" started-at="2018-07-25T10:31:26Z" finished-at="2018-07-25T10:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TestTestlink()[pri:0, instance:functionalTest.LoginTest@5e3a8624]" name="TestTestlink" duration-ms="2352" started-at="2018-07-25T10:31:40Z" finished-at="2018-07-25T10:31:43Z">
+          <exception class="testlink.api.java.client.TestLinkAPIException">
+            <message>
+              <![CDATA[The test case identifier null was not found and the test case CASH-1 could not be accessed to report a test result to test plan Testing.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[testlink.api.java.client.TestLinkAPIException: The test case identifier null was not found and the test case CASH-1 could not be accessed to report a test result to test plan Testing.
+at testlink.api.java.client.TestLinkAPIClient.reportTestCaseResult(TestLinkAPIClient.java:199)
+at functionalTest.LoginTest.TestTestlink(LoginTest.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- testlink.api.java.client.TestLinkAPIException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTestlink -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:functionalTest.LoginTest@5e3a8624]" name="setDown" is-config="true" duration-ms="856" started-at="2018-07-25T10:31:43Z" finished-at="2018-07-25T10:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- functionalTest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
